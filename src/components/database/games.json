@@ -1,0 +1,54 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "title": "7 Wonders",
+      "publishers": "Repos Production",
+      "designer": "Antoine Bauza",
+      "min_players": "2",
+      "max_players": "7",
+      "min_age": "10",
+      "rating": "6"
+    },
+    {
+      "id": 2,
+      "title": "Robinson Crusoe",
+      "publishers": "Portal Games",
+      "designer": "Ignacy Trzewiczek",
+      "min_players": "1",
+      "max_players": "4",
+      "min_age": "14",
+      "rating": "5"
+    },
+    {
+      "id": 3,
+      "title": "Capital",
+      "publishers": "Granna",
+      "designer": "Filip Miłuński",
+      "min_players": "2",
+      "max_players": "7",
+      "min_age": "10",
+      "rating": "5"
+    },
+    {
+      "id": 4,
+      "title": "7 Wonders Duel",
+      "publishers": "Repos Production",
+      "designer": "Antoine Bauza",
+      "min_players": "2",
+      "max_players": "7",
+      "min_age": "10",
+      "rating": "6"
+    },
+    {
+      "id": 5,
+      "title": "Monopoly",
+      "publishers": "nobody cares, but it was a good marketing specialist",
+      "designer": "3 years old child",
+      "min_players": "0",
+      "max_players": "0",
+      "min_age": "0",
+      "rating": "1"
+    }
+  ]
+}

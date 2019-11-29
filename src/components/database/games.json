@@ -8,7 +8,7 @@
       "min_players": "2",
       "max_players": "7",
       "min_age": "10",
-      "rating": "6"
+      "rating": "10"
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "min_players": "1",
       "max_players": "4",
       "min_age": "14",
-      "rating": "5"
+      "rating": "9"
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
       "min_players": "2",
       "max_players": "7",
       "min_age": "10",
-      "rating": "5"
+      "rating": "10"
     },
     {
       "id": 4,
@@ -38,17 +38,17 @@
       "min_players": "2",
       "max_players": "7",
       "min_age": "10",
-      "rating": "6"
+      "rating": "10"
     },
     {
       "id": 5,
       "title": "Monopoly",
-      "publishers": "nobody cares, but it was a good marketing specialist",
-      "designer": "3 years old child",
+      "publishers": "Parker Brothers",
+      "designer": "Elizabeth J. Magie (Phillips), Charles Darrow",
       "min_players": "0",
       "max_players": "0",
       "min_age": "0",
-      "rating": "1"
+      "rating": "0"
     }
   ]
 }

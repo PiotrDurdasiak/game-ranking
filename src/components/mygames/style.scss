@@ -1,0 +1,28 @@
+.landing__img{
+  height: 85vh;
+  width: 100vw;
+  margin: 0;
+  background-image: url("../menu/1_fcOemY1xrwLcWUnX8l8g8Q.jpeg");
+  background-size: 100% 100%;
+  background-repeat: repeat;
+};
+
+.mygames__div__on__landing__img{
+  height: 85vh;
+  width: 100vw;
+  margin: 0;
+  background:rgba(255,255,255, 0.5);
+  display: flex;
+  //align-items: center;
+  //justify-content: center;
+  //flex-direction: column;
+}
+
+.mygames__list__ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mygames__element__li{
+  margin: 20px;
+}

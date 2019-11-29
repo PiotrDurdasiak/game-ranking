@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import './style.scss';
+
 
 
 class ListOfGames extends Component {
@@ -17,23 +19,28 @@ class ListOfGames extends Component {
 
 
     render() {
-        console.log(this.state.games)
         return (
             <div>
-                <ul>
+                <div className="landing__img">
+                    <div className="mygames__div__on__landing__img">
+                <ul className="mygames__list__ul">
                     {this.state.games.map(game => (
                             <>
-                                <li>
+                                <li className="mygames__element__li">
+                                    <div>
                                     <div><h2>{game.title}</h2></div>
-                                    <div>Autor: {game.designer}</div>
-                                    <div>Wydawca: {game.publishers}</div>
-                                    <div>Moja Ocena: 5/6</div>
+                                    <div>Designer: {game.designer}</div>
+                                    <div>Publisher: {game.publishers}</div>
+                                    <div>{game.rating}/10</div>
+                                    </div>
                                 </li>
                             </>
                         )
                     )}
 
                 </ul>
+                    </div>
+                </div>
             </div>
         )
     }

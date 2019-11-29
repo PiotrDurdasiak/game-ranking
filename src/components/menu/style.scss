@@ -1,5 +1,47 @@
 .landing__img{
-  height: calc(100vh - 76px);
+  height: 85vh;
   width: 100vw;
   margin: 0;
+  background-image: url("./1_fcOemY1xrwLcWUnX8l8g8Q.jpeg");
+  background-size: 100% 100%;
+};
+
+.div__on__landing__img{
+  height: 85vh;
+  width: 100vw;
+  margin: 0;
+  background:rgba(255,255,255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
+.welcome__banner{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 4rem;
+  margin: 0;
+}
+
+.main__nav__ul{
+  display: flex;
+}
+
+.menu__container{
+  display: flex;
+  background-color: #780116;
+  height: 15vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu_element__li{
+  //justify-self: end;
+  //display: inline-block;
+  padding: 10px;
+  list-style-type: none;
+  text-decoration: none;
+  border-radius: 20px;
+  background-color: #DB7C26;
+  color: white;
+  margin-right: 20px
+};

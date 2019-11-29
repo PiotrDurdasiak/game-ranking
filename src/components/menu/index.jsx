@@ -1,44 +1,36 @@
 import React from 'react';
-import Pawn from './pawn.png';
+import Pawn from './noun_Meeple_1269.svg';
 import LandingImg from './1_fcOemY1xrwLcWUnX8l8g8Q.jpeg';
 import './style.scss';
 import {Link} from 'react-router-dom';
 
 
-const styleLi = {
-    display: 'inline-block',
-    padding: '10px',
-    listStyleType: 'none',
+
+
+const styleLink = {
     textDecoration: 'none',
-    borderRadius: ' 20px',
-    border: ' 1px gray solid',
-    backgroundColor: 'pink',
     color: 'white',
-    marginRight: '20px'
-};
+    fontSize: '1.5em'
+}
 
 const styleImg = {
-    height: '30px',
-    width: '25px',
+    height: '60px',
+    width: '50px',
     margin: '20px'
 };
-
-const styleDiv = {
-    backgroundColor: 'blue'
-}
 
 
 const Header  = () => {
     return(
-        <div style={styleDiv}>
-            <a href={"/"}>
+        <div className="menu__container">
+            <Link to="/">
                 <img style={styleImg} src={Pawn} alt="pawn"/>
-            </a>
-            <ul style={{float: 'right', margin: '20px 20px 0 0'}}>
-                <li style={styleLi}>About me</li>
-                <li style={styleLi}><Link to="/myGames">My games</Link></li>
-                <li style={styleLi}><Link to="/myRanking">Ranking</Link></li>
-                <li style={styleLi}>Shop</li>
+            </Link>
+            <ul className="main__nav__ul">
+                <li className="menu_element__li"><Link style={styleLink}>About me</Link></li>
+                <li className="menu_element__li"><Link style={styleLink} to="/myGames">My games</Link></li>
+                <li className="menu_element__li"><Link style={styleLink} to="/myRanking">Ranking</Link></li>
+                <li className="menu_element__li"><Link style={styleLink}>Add new game</Link></li>
             </ul>
         </div>
     )
@@ -47,7 +39,9 @@ const Header  = () => {
 
 export const LandingPicture = () => {
     return(
-        <img src={LandingImg} className="landing__img" alt="scythe picture"/>
+        <div className="landing__img">
+            <div className="div__on__landing__img"> <h2 className="welcome__banner">Welcome to</h2> <h2 className="welcome__banner">Durdasiak's Board Games</h2> </div>
+        </div>
     )
 }
 
